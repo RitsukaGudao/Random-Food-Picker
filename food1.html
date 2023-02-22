@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          .Data_red{
+            color :red
+          }
+          table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+          }
+         th , td{
+            background-color:aquamarine;
+            border-style: inset
+         }
+        </style>
+        <script>
+            function openWin() {
+  myWindow = window.open("sonic.html", "_self");  
+}            
+        </script>
+    </head>
+    <body>
+        <p><h1><b>Food chosen:Kway Teow</b></h1></p>
+        <img src = "ptsd-pictures/kway1.jpg" alt = "Picture of kway teow" style = "width:500px;height:400px">
+        <img src = "ptsd-pictures/kway2.jpg" alt = "Picture of kway teow" style = "width:500px;height:400px">
+        <p><h3>Kway Teow literally translates to "ricecake strips", which is exactly what they are- strips of noodles made from <b>rice flour</b></h3></p>        
+        <table>
+            <tr>
+                <th>Protein(g)</th>
+                <th>Fat(g)</th>
+                <th>Saturated Fat(g)</th>
+                <th>Dietary Fibre(g)</th>
+                <th>Carbs(g)</th>
+                <th>Cholestrol(mg)</th>
+                <th>Sodium(mg)</th>
+            </tr>
+            <tr>
+                <td>74.4</td>
+                <td>23</td>
+                <td class = "Data_red">29.2</td>
+                <td>7.3</td>
+                <td>76</td>
+                <td class = "Data_red">234</td>
+                <td class = "Data_red">1459</td>
+            </tr>
+        </table>
+        <p>
+           Char kway teow is made of a mix of flat rice noodles and yellow wheat noodles, stir-fried over high heat with light and dark soy sauce, garlic, chilli, lup cheong (Chinese waxed sausage), egg, fishcake and beansprouts. 
+           The most satisfying part—char kway teow is stir-fried in lard, giving it both fragrance and thick texture. Fresh prawns and blood cockles are then added to the mix. Local and regional variants of the dish also incorporate belacan (dried shrimp paste).
+        </p>       
+        <center><button type = "button" onclick = "openWin()">Head back to main page</button></center>
+    </body>
+</html>

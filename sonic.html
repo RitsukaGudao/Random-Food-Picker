@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><h1>Random food picker</h1></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootst
+rap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+       #direction{
+        color :blueviolet;
+        text-align:center;
+        padding: 30px 64px;
+        background-color: aquamarine;
+        margin:20px;
+      }      
+      #Head{
+        margin-top: 35px;
+      }
+      #chicken_surprise{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 50px;
+      }
+      #carenpls{
+        margin-bottom: 50px;
+      }
+      body{
+        background: orange;
+      }
+      ul {
+        list-style-type: none;
+        margin: 10;
+        padding: 10px; 
+        overflow: hidden;
+        color: blue;       
+      }
+      li a:hover{
+        color:blueviolet
+      }
+      
+    </style>
+    <script>
+       function randomLink()
+       {
+       let x = Math.floor(Math.random() *10) +1;
+        if(x == 1) {
+            window.open("food1.html" ,"_self");
+        }
+        if(x == 2) {
+            window.open("food2.html" ,"_self");
+        }
+        if(x == 3) {
+            window.open("food3.html" ,"_self");
+        }
+        if(x == 4) {
+            window.open("food4.html" ,"_self");
+        }
+        if(x == 5) {
+            window.open("food5.html" ,"_self");
+        }
+        if(x == 6) {
+            window.open("food6.html" ,"_self");
+        }
+        if(x == 7) {
+            window.open("food7.html" ,"_self");
+        }
+        if(x == 8) {
+            window.open("food8.html" ,"_self");
+        }
+        if(x == 9) {
+            window.open("food9.html" ,"_self");
+        }
+        if(x == 10) {
+            window.open("food10.html" ,"_self");
+        }
+       }
+       
+    </script>
+</head>
+    <body>
+        <!--What is the purpose of the classes and will it break if i use different classes that arent related at all for navbar?-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="Food" href="sonic.html">Food lol(All foods here,aka main page)</a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class = "Foods">       
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food1.html">Food 1</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food2.html">Food 2</a>                   
+                </li>
+            </ul>
+            <ul>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food3.html">Food 3</a>
+                </li>                    
+                <li class = "nav-item">
+                    <a class= "nav-link" href = "food4.html">Food 4</a>              
+                </li>
+            </ul>
+            <ul>
+                <li class = "nav-link">
+                    <a class = "nav-link" href = "food5.html">Food 5</a>
+                </li>
+                <li class = "nav-link">
+                    <a class = "nav-link" href = "food6.html">Food 6</a>
+                </li>
+            </ul>
+            <ul>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food7.html">Food 7</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food8.html">Food 8</a>
+                </li>
+            </ul>
+            <ul>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food9.html">Food 9</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link" href = "food10.html">Food 10</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href = "troll.txt"><img src = "" alt = "interested?" style = "width:100px;height:75px" id = "header_pic"></a>
+                </li>
+            </ul>
+            </div>
+            </nav>
+        <article>
+        <header id = "Head">
+            <h1>Food chosing website-where we choose among 10 foods to satisfy your cravings!</h1>          
+          </header></article>
+        <audio autoplay loop>
+            <source src="Windmill2.mp3" type="audio/mpeg">
+            <p>Audio crashed. RIP</p>     
+        </audio>
+        <p><h2>What should you eat today?</h2></p>
+        <img src = "ptsd-pictures/meme1.jpg" alt = "Picture of kway teow" style = "width:500px;height:400px" id = "chicken_surprise">
+        <img src = "ptsd-pictures/LOL.jpg" alt = "Picture of kway teow" style = "width:500px;height:400px" id ="carenpls">
+        <center><button type = "button" onclick = "randomLink()" id = "direction">Generate food Choice!</button></center>
+        <div><center>
+          <h4>Why use a random food picker? Well, why not?</h4>
+        </div></center>       
+           <ul>
+            <li>
+                @One of The Groups
+            </li>
+            <li id ="Rickroll">
+                <a href = "troll.txt">Privacy</a>
+            </li>
+           </ul>
+        
+    </body>
+</html>
